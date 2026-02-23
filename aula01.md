@@ -49,9 +49,9 @@ Exemplo:
  
 - Frame Work para desenvolver web em Python = Jango
     
-### Pesquisar os significados:
-- código fonte
-- pacote
-- biblioteca
-- frame work - model view control
-- api
+### Pesquisa de significados:
+- Código fonte: Código-fonte é o conjunto de instruções escritas em uma linguagem de programação que define o funcionamento de um software.
+- pacote: Os pacotes são compartimentos onde podemos organizar nossas classes, semelhantes às pastas ou diretórios
+- biblioteca: Coleção de códigos reutilizáveis que reúne funções comuns, funcionando como uma caixa de ferramentas para desenvolvedores
+- frame work - model view control: Um framework é uma estrutura composta por códigos prontos que serve como base para o desenvolvimento de aplicações
+- api: Conjunto de regras, protocolos e ferramentas que permitem a comunicação entre diferentes sistemas, aplicativos ou serviços de forma padronizada e eficiente
