@@ -31,7 +31,7 @@
 - SGBD (sistema gerenciador de banco de dados) = serviços sobre o banco de dados;
   - Segurança;
   - Manipulação;
-## Exercício
+## Exercício 01
 Um profissional de educação física precisa automatizar, via informatização, a sua agenda de atendimentos de alunos de personal trainer.
 O sistema monitora os clientes (nome, emmail, e telefone), categoria do cliente (nome) que tem relação com o objetivo do treinamento. Sendo que o cliente pode ter muitos objetivos. Os treinamentos são compostos por exercícios de diferentes categorias. Por exemplo, remanada baixa tem relação com a categoria costas. Dessa forma, o exercício tem relação com o grupo muscular. Mas para o primeiro momento, o professor precisa automzatizar sua agenda, em que o aluno/cliente tem um horario com esse professor. Um aluno/cliente pode ter vários encontros com esse professor e cada encontro tem uma relação com o treinamento montado ou criado. E que por sua vez, esse treinamento tem um conjunto de exercícios.
 - Dicas:
@@ -39,6 +39,13 @@ O sistema monitora os clientes (nome, emmail, e telefone), categoria do cliente 
        - identificar as entidades/tabelas
        - identificar os atributos (simples e os identificadores)
        - definir a cardinalidade
+
+<img width="1231" height="533" alt="image" src="https://github.com/user-attachments/assets/83309c2e-ef62-43d9-b097-ee5eac0f4d15" />
+
+## Exercício 02
+Um professor de Padel precisa automatizar, via informatização, os jogos treinos dele. Um jogo é composto por 4 atletas de categoria igual (categoria 1, 2, 3, 4, 5, 6). Esse jogo treino deve ser em um dia, uma hora, em uma quadra de um clube. O professor lança um jogo informando o dia, a hora, a quadra, o clube, e a categoria do jogo treino. E os atletas entram nesse jogo, ou compõe esse jogo. 
+
+<img width="1049" height="583" alt="image" src="https://github.com/user-attachments/assets/6249a9c3-e1d9-48e7-a6f5-d1db604e4326" />
 
 
 
