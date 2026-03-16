@@ -1,0 +1,22 @@
+- Modelagem
+  - Conceitual: nível abstrato com entidades, atributos, relacionamentos e cardinalidades
+    - interação com o cliente
+    - geração de documentação
+  - Lógico: nível de programação, foco nas chaves estrangeiras.
+  - Físico: nível de SGBD e tecnologia
+- Conceitos
+  - BD vs SGBD: estrutura de armazenamento vs conjunto de serviços para o BD
+    - serviços do SGBD:
+      - garantir integridade do banco
+      - garantir transações
+      - backup
+    - sistema computacional
+      - sistema de informação: foco no relatório
+      - sistema de conhecimento: foco no reconhecimento de padrões
+        - armazenar mais atributos
+        - evitar dados nulos
+    - partes ou elementos de um sistema
+      - partes ou aspectos estruturais
+        - bd
+      - partes ou aspectos funcionais
+        - funcionalidades ou finalidades do sistema
