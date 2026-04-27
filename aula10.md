@@ -36,4 +36,57 @@
 
 <img width="628" height="458" alt="image" src="https://github.com/user-attachments/assets/9a8dde01-72eb-4729-8f5b-f8b9ae7ccb50" />
 ### Histórico de disciplinas cursadas/cursando pelo Alexz
-- se
+
+### MySQL
+```
+create schema ufn_db;
+use ufn_db;
+show tables;
+
+create table curso (
+	id_curso int primary key not null,
+    descricao varchar (50) not null
+);
+
+select *
+from curso;
+
+create table aluno (
+	id_aluno int primary key not null,
+	nome varchar (50) not null,
+	id_curso int,
+	constraint fk_curso foreign key (id_curso) references curso(id_curso)
+);
+
+select *
+from aluno;
+
+create table Disciplina (
+	id_disciplina int primary key not null,
+    nome varchar (50) not null
+);
+
+select *
+from Disciplina;
+
+create table turma (
+	id_turma int primary key not null,
+	ano_semestre varchar (50) not null,
+	id_disciplina int,
+	constraint fk_disciplina foreign key (id_disciplina) references Disciplina(id_disciplina)
+);
+
+select *
+from turma;
+
+create table Matricula (
+	id_matricula int primary key not null,
+    id_aluno int,
+    constraint fk_aluno foreign key (id_aluno) references aluno(id_aluno),
+    id_turma int,
+    constraint fk_turma foreign key (id_turma) references turma(id_turma)
+);
+
+select *
+from matricula;
+```
