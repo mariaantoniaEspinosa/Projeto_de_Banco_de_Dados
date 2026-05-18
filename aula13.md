@@ -24,3 +24,5 @@
 - in
 - Like L%
 - Null
+
+Para estudar SQL: https://sqlbolt.com/
